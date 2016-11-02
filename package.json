@@ -1,0 +1,19 @@
+{
+  "name": "woof",
+  "version": "1.0.0",
+  "description": "A Twitter clone created to show many of Angular's features to an Iron Yard class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Kuhn <zachary.kuhn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-local-storage": "^0.5.0",
+    "angular-ui-router": "^0.3.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "normalize.css": "^5.0.0"
+  }
+}
