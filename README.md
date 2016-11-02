@@ -1,3 +1,4 @@
+
 # Woof Angular App
 
 This app is a simple Twitter clone named Woof where users can create and view posts.
@@ -17,3 +18,5 @@ You must have the following software on your system:
 * Run `npm install` within the project directory
 * Open the project within Atom
 * Press `ctrl+shift+3` to serve the files within the directory
+
+# Mad-Libs
