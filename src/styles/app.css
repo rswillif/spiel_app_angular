@@ -49,7 +49,7 @@ body {
   font-family: 'Slabo 27px', serif; }
 
 .topSection {
-  height: 200px;
+  height: 150px;
   background: #8164BA; }
 
 h1 {
@@ -57,32 +57,29 @@ h1 {
   font-size: 120px;
   font-family: 'Monofett', cursive;
   text-align: left;
-  padding-left: 7%; }
+  padding-left: 7%;
+  padding-top: 5px; }
 
 ul {
-  background: red;
-  float: left;
+  background: #40325d;
+  overflow: hidden;
   position: relative;
-  top: 40px;
+  top: 20px;
   width: 100%; }
   ul .nav {
-    width: 33.33vw;
     display: inline;
     float: left;
-    background: #40325d;
     text-align: center;
-    overflow: hidden;
-    padding-top: 10px;
-    height: 30px;
-    color: #ffffff; }
-    ul .nav .nav:hover {
-      background: red; }
+    width: 33.33vw; }
 
 .nav a {
   color: #ffffff;
   display: block;
+  height: 30px;
+  padding-top: 10px;
   text-decoration: none; }
-  .nav a a:hover {
-    background: red; }
+
+.nav a:hover {
+  background: #33284a; }
 
 /*# sourceMappingURL=app.css.map */
