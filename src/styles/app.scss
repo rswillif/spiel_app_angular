@@ -1,8 +1,13 @@
 @import 'partials/reset';
 
+// *{
+//   box-sizing: border-box;
+// }
+
+
 body {
     background: url('../../images/background.png');
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Josefin Sans', serif;
 }
 
 .topSection {
@@ -18,6 +23,13 @@ h1 {
     padding-top: 5px;
     width: 500px;
 }
+
+.form{
+  height: 30px;
+  width: 20%;
+  opacity: 1;
+}
+
 
 .logo {
     width: 90px;
@@ -56,16 +68,26 @@ ul {
 }
 
 .fadeContainer{
-  background: #ffffff;
-  color:transparent;
-  width: 80%;
-  height: 100px;
+  background-color: rgba(255,255,255, .5);
+  // color: transparent;
+  width: 70%;
   font-size: 22px;
   line-height: 120%;
   margin: 0 auto;
   top: 50px;
   padding: 25px;
   position: relative;
-  opacity: .4;
-  text-shadow: 0 0 10px(#000000);
+  // text-shadow: 0 0 10px(#000000);
+}
+
+
+.form{
+  background-color: #EBEBEB;
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
+  border-bottom: 2px solid #40325d;
+  border-radius: 2px;
+  text-align: center;
+  outline: none;
+  color: #8164BA;
 }
