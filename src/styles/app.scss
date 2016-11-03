@@ -12,11 +12,19 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Monofett', cursive;
     text-align: left;
-    padding-left: 7%;
     padding-top: 5px;
+    width: 500px;
+}
+
+.logo {
+  width: 90px;
+  padding-top: 15px;
+  float: left;
+  padding-left: 2%
+
 }
 
 ul {
