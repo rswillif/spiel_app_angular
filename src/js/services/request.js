@@ -1,15 +1,14 @@
-angular.module('spielApp').service('FormRequest', function($http) {
-  function getForm() {
+SpielApp.service('SpielForm', getFormService) {
+  function getFormService($http) {
+    function fetchForm() {
     return $http({
       method: 'GET',
       url: ''
     }).then(function(response) {
       console.log(repsonse);
     });
-  }
-
-  return {
-    get:
   };
-
-});
+  return {
+    get: fetchForm
+  };
+}
