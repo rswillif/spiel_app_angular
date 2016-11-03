@@ -1,10 +1,93 @@
 @import 'partials/reset';
 
-body{
-  background: url('../images/background.png');
+// *{
+//   box-sizing: border-box;
+// }
+
+
+body {
+    background: url('../../images/background.png');
+    font-family: 'Josefin Sans', serif;
 }
 
-.topSection{
-  height: 200px;
-  background: red;
+.topSection {
+    height: 150px;
+    background: #8164BA;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Monofett', cursive;
+    text-align: left;
+    padding-top: 5px;
+    width: 500px;
+}
+
+.form{
+  height: 30px;
+  width: 20%;
+  opacity: 1;
+}
+
+
+.logo {
+    width: 90px;
+    padding-top: 15px;
+    float: left;
+    padding-left: 2%;
+}
+
+ul {
+    background: #40325d;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    width: 100%;
+
+    .nav {
+        display: inline;
+        float: left;
+        text-align: center;
+        width: 33.33vw;
+    }
+}
+
+.nav a {
+    color: #ffffff;
+    display: block;
+    height: 30px;
+    font-size: 18px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: #33284a;
+    text-transform: uppercase;
+}
+
+.fadeContainer{
+  background-color: rgba(255,255,255, .5);
+  // color: transparent;
+  width: 70%;
+  font-size: 22px;
+  line-height: 120%;
+  margin: 0 auto;
+  top: 50px;
+  padding: 25px;
+  position: relative;
+  // text-shadow: 0 0 10px(#000000);
+}
+
+
+.form{
+  background-color: #EBEBEB;
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
+  border-bottom: 2px solid #40325d;
+  border-radius: 2px;
+  text-align: center;
+  outline: none;
+  color: #8164BA;
 }

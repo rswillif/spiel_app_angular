@@ -4,8 +4,8 @@ SpielApp.controller('MainController', function(spielForm, $scope) {
   formString = {};
 
   $scope.when(spielForm.get()).then(function(response) {
-        self.formString = response.data;
+        $scope.formString = response.data;
       });
 
-      
+
   }]);
