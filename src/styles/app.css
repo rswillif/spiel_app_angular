@@ -50,7 +50,8 @@ body {
 
 .topSection {
   height: 150px;
-  background: #8164BA; }
+  background: #8164BA;
+  z-index: 100; }
 
 h1 {
   color: #ffffff;
@@ -96,23 +97,33 @@ ul {
   text-transform: uppercase; }
 
 .fadeContainer {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: transparent;
   width: 70%;
   font-size: 22px;
   line-height: 120%;
   margin: 0 auto;
   top: 50px;
   padding: 25px;
-  position: relative; }
+  position: relative;
+  text-shadow: 0 0 10px #000000; }
 
 .form {
   background-color: #EBEBEB;
   font-size: 20px;
   font-family: 'Josefin Sans', serif;
+  border: 0;
   border-bottom: 2px solid #40325d;
   border-radius: 2px;
+  margin: 5px;
   text-align: center;
-  outline: none;
+  opacity: 0.7;
+  outline: 0;
   color: #8164BA; }
+
+video {
+  z-index: -100;
+  position: fixed;
+  opacity: 0.7; }
 
 /*# sourceMappingURL=app.css.map */

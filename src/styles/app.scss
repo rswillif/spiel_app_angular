@@ -1,9 +1,7 @@
 @import 'partials/reset';
-
 // *{
 //   box-sizing: border-box;
 // }
-
 
 body {
     background: url('../../images/background.png');
@@ -13,6 +11,7 @@ body {
 .topSection {
     height: 150px;
     background: #8164BA;
+    z-index: 100;
 }
 
 h1 {
@@ -24,12 +23,11 @@ h1 {
     width: 500px;
 }
 
-.form{
-  height: 30px;
-  width: 20%;
-  opacity: 1;
+.form {
+    height: 30px;
+    width: 20%;
+    opacity: 1;
 }
-
 
 .logo {
     width: 90px;
@@ -67,27 +65,35 @@ ul {
     text-transform: uppercase;
 }
 
-.fadeContainer{
-  background-color: rgba(255,255,255, .5);
-  // color: transparent;
-  width: 70%;
-  font-size: 22px;
-  line-height: 120%;
-  margin: 0 auto;
-  top: 50px;
-  padding: 25px;
-  position: relative;
-  // text-shadow: 0 0 10px(#000000);
+.fadeContainer {
+    background-color: rgba(255,255,255, .3);
+    color: transparent;
+    width: 70%;
+    font-size: 22px;
+    line-height: 120%;
+    margin: 0 auto;
+    top: 50px;
+    padding: 25px;
+    position: relative;
+    text-shadow: 0 0 10px(#000000);
 }
 
+.form {
+    background-color: #EBEBEB;
+    font-size: 20px;
+    font-family: 'Josefin Sans', serif;
+    border: 0;
+    border-bottom: 2px solid #40325d;
+    border-radius: 2px;
+    margin: 5px;
+    text-align: center;
+    opacity: 0.7;
+    outline: 0;
+    color: #8164BA;
+}
 
-.form{
-  background-color: #EBEBEB;
-  font-size: 20px;
-  font-family: 'Josefin Sans', serif;
-  border-bottom: 2px solid #40325d;
-  border-radius: 2px;
-  text-align: center;
-  outline: none;
-  color: #8164BA;
+video {
+    z-index: -100;
+    position: fixed;
+    opacity: 0.7;
 }
