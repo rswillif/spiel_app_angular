@@ -1,10 +1,10 @@
-angular.module('').service('PersonRequest', function($http) {
-  function getSomething() {
+angular.module('spielApp').service('FormRequest', function($http) {
+  function getForm() {
     return $http({
       method: 'GET',
       url: ''
     }).then(function(response) {
-      return
+      console.log(repsonse);
     });
   }
 
