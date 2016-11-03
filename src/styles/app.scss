@@ -1,7 +1,7 @@
 @import 'partials/reset';
 
 body {
-    background: url('/images/background.png');
+    background: url('../../images/background.png');
     font-family: 'Slabo 27px', serif;
 }
 
@@ -20,11 +20,10 @@ h1 {
 }
 
 .logo {
-  width: 90px;
-  padding-top: 15px;
-  float: left;
-  padding-left: 2%
-
+    width: 90px;
+    padding-top: 15px;
+    float: left;
+    padding-left: 2%;
 }
 
 ul {
@@ -46,12 +45,27 @@ ul {
     color: #ffffff;
     display: block;
     height: 30px;
+    font-size: 18px;
     padding-top: 10px;
     text-decoration: none;
-
-
 }
 
 .nav a:hover {
     background: #33284a;
+    text-transform: uppercase;
+}
+
+.fadeContainer{
+  background: #ffffff;
+  color:transparent;
+  width: 80%;
+  height: 100px;
+  font-size: 22px;
+  line-height: 120%;
+  margin: 0 auto;
+  top: 50px;
+  padding: 25px;
+  position: relative;
+  opacity: .4;
+  text-shadow: 0 0 10px(#000000);
 }

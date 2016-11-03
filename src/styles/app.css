@@ -45,7 +45,7 @@ table {
   border-spacing: 0; }
 
 body {
-  background: url("/images/background.png");
+  background: url("../../images/background.png");
   font-family: 'Slabo 27px', serif; }
 
 .topSection {
@@ -82,10 +82,26 @@ ul {
   color: #ffffff;
   display: block;
   height: 30px;
+  font-size: 18px;
   padding-top: 10px;
   text-decoration: none; }
 
 .nav a:hover {
-  background: #33284a; }
+  background: #33284a;
+  text-transform: uppercase; }
+
+.fadeContainer {
+  background: #ffffff;
+  color: transparent;
+  width: 80%;
+  height: 100px;
+  font-size: 22px;
+  line-height: 120%;
+  margin: 0 auto;
+  top: 50px;
+  padding: 25px;
+  position: relative;
+  opacity: .4;
+  text-shadow: 0 0 10px #000000; }
 
 /*# sourceMappingURL=app.css.map */
