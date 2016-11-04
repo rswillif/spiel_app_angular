@@ -1,4 +1,4 @@
-.nada {
+.mainContainer {
   margin: 0 auto;
   width: 75%;
   height: 400px;
@@ -21,22 +21,12 @@
     width: 20%;
 }
 
-.gameButtons {
-    position: relative;
-    top: 40px;
-    left: 50%;
-
-    ul {
-        background: transparent;
-        float: right;
-
-        li {
-            float: left;
-        }
-    }
+.fa-heart{
+  font-size: 8px;
 }
 
-ul li .button {
+
+ button {
   background: #8164BA;
   border: none;
   box-shadow: 0 6px #40325d;
