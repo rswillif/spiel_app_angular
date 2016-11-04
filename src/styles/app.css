@@ -126,4 +126,26 @@ video {
   position: fixed;
   opacity: 0.7; }
 
+.gameButtons {
+  position: relative;
+  top: 40px;
+  left: 50%; }
+  .gameButtons ul {
+    background: transparent;
+    float: right; }
+    .gameButtons ul li {
+      float: left; }
+      .gameButtons ul li .button {
+        padding: 5px 8px;
+        background: #40325d;
+        border: 3px solid transparent;
+        background: transparent;
+        font-family: 'Monofett', cursive;
+        font-size: 35px;
+        color: #fff;
+        margin: 0 8px; }
+        .gameButtons ul li .button:hover {
+          border: 3px solid #fff;
+          border-radius: 5px; }
+
 /*# sourceMappingURL=app.css.map */

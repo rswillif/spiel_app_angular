@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app=''>
+<html lang="en" ng-app='spielapp'>
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
 </head>
 
-<body ng-controller="MainController">
+<body>
   <video preload="metadata"  autoplay fullscreen muted loop>
     <source src="/images/v2_Particle_Random_6.mp4" type="video/mp4">
     You're totally missing out right now, loser.
@@ -27,22 +27,19 @@
   <img class='logo' src='./images/spiellogo.png'/>
   <h1>Spiel</h1>
   <ul>
-    <li class='nav'><a href='#'>Login</a></li>
-    <li class='nav'><a href='#'>Play</a></li>
-    <li class='nav'><a href='#'>Favorites</a></li>
+    <li class='nav'><a ui-sref='main.login'>Login</a></li>
+    <li class='nav'><a ui-sref='main.game'>Play</a></li>
+    <li class='nav'><a ui-sref='main.favs'>Favorites</a></li>
   </ul>
 </div>
 
-<div class='fadeContainer'>
-  <p> Pizza was invented by a <input type='text' class='form' placeholder="NATIONALITY"/> chef. To make a pizza, you need to take a lump of <input type='text' class='form' placeholder="NOUN"/>, and make a thin, round <input type='text' class='form' placeholder="ADJECTIVE"/> <input type='text' class='form' placeholder="NOUN"/>. Then you cover it with <input type='text' class='form' placeholder="ADJECTIVE"/> sauce, <input type='text' class='form' placeholder="ADJECTIVE"/> cheese, and fresh chopped <input type='text' class='form' placeholder="PLURALNOUN"/>. Next you have to bake it in a very hot <input type='text' class='form' placeholder="NOUN"/>. When it is done, <input type='text' class='form' placeholder="VERB"/> it into <input type='text' class='form' placeholder="ADJECTIVE"/> slices.  </p>
-
-</div>
+<ui-view></ui-view>
 
 
 
-    <!-- <script src="./node_modules/angular/angular.js"></script> -->
-    <!-- <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="./node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script> -->
+    <script src="./node_modules/angular/angular.js"></script>
+    <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
     <script src="./src/js/app.js"></script>
     <script src="./src/js/controllers/MainController/js"></script>
 
