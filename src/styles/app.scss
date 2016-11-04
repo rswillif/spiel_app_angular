@@ -72,6 +72,10 @@ ul {
     padding: 25px;
     position: relative;
     text-shadow: 0 0 10px(#000000);
+    .active {
+      color: black;
+      text-shadow: none;
+    }
 }
 
 .fa {

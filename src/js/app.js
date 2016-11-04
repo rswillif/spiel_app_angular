@@ -11,14 +11,14 @@
   }).state('main.login', {
     url: 'login',
     templateUrl: './src/templates/login.html',
-    controller: 'LoginController'
+    controller: 'LoginController as LoginCtrl'
   }).state('main.game', {
     url: 'game',
     templateUrl: './src/templates/game.html',
-    controller: 'MainController'
+    controller: 'MainController as MainCtrl'
   }).state('main.favs', {
     url: 'favs',
     templateUrl: './src/templates/favs.html',
-    controller: 'FavController'
+    controller: 'FavController as FavCtrl'
   });
 });
