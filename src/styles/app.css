@@ -56,6 +56,12 @@ table {
   padding: 5px;
   color: red; }
 
+.btnContainer {
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  background: red; }
+
 .gameForm {
   background-color: rgba(255, 255, 255, 0.3);
   font-size: 20px;

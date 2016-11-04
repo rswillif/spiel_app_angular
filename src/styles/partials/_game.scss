@@ -1,3 +1,10 @@
+.btnContainer{
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  background: red;
+}
+
 .gameForm {
     background-color: rgba(255,255,255, .3);
     font-size: 20px;
@@ -12,6 +19,8 @@
     height: 30px;
     width: 20%;
 }
+
+
 
 .fa-heart{
   font-size: 8px;
