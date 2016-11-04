@@ -1,0 +1,53 @@
+.gameForm {
+    background-color: rgba(255,255,255, .3);
+    font-size: 20px;
+    font-family: 'Josefin Sans', serif;
+    border: 0;
+    border-bottom: 2px solid #40325d;
+    border-radius: 2px;
+    margin: 5px;
+    text-align: center;
+    outline: 0;
+    color: #8164BA;
+    height: 30px;
+    width: 20%;
+}
+
+.gameButtons {
+    position: relative;
+    top: 40px;
+    left: 50%;
+
+    ul {
+        background: transparent;
+        float: right;
+
+        li {
+            float: left;
+        }
+    }
+}
+
+ul li .button {
+  background: #8164BA;
+  border: none;
+  box-shadow: 0 6px #40325d;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  font-size: 30px;
+  font-family: 'Monofett', cursive;
+  padding: 5px 10px;
+
+    &:hover {
+        background: #5a4682;
+
+        &:active {
+            background: #5a4682;
+            box-shadow: 0 3px #40325d;
+            transform: translateY(4px);
+        }
+    }
+}

@@ -44,6 +44,62 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.loginRegister {
+  border: none;
+  border-radius: 2px;
+  display: block;
+  margin: 10px;
+  outline: 0;
+  width: 20%;
+  height: 30px;
+  padding: 5px; }
+
+.gameForm {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
+  border: 0;
+  border-bottom: 2px solid #40325d;
+  border-radius: 2px;
+  margin: 5px;
+  text-align: center;
+  outline: 0;
+  color: #8164BA;
+  height: 30px;
+  width: 20%; }
+
+.gameButtons {
+  position: relative;
+  top: 40px;
+  left: 50%; }
+  .gameButtons ul {
+    background: transparent;
+    float: right; }
+    .gameButtons ul li {
+      float: left; }
+
+ul li .button {
+  background: #8164BA;
+  border: none;
+  box-shadow: 0 6px #40325d;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  font-size: 30px;
+  font-family: 'Monofett', cursive;
+  padding: 5px 10px; }
+  ul li .button:hover {
+    background: #5a4682; }
+    ul li .button:hover:active {
+      background: #5a4682;
+      box-shadow: 0 3px #40325d;
+      transform: translateY(4px); }
+
+* {
+  box-sizing: border-box; }
+
 body {
   background: url("../../images/background.png");
   font-family: 'Josefin Sans', serif; }
@@ -61,16 +117,10 @@ h1 {
   padding-top: 5px;
   width: 500px; }
 
-.form {
-  height: 30px;
-  width: 20%;
-  opacity: 1; }
-
 .logo {
-  width: 90px;
   padding-top: 15px;
   float: left;
-  padding-left: 2%; }
+  padding-left: 1%; }
 
 ul {
   background: #40325d;
@@ -87,7 +137,7 @@ ul {
 .nav a {
   color: #ffffff;
   display: block;
-  height: 30px;
+  height: 35px;
   font-size: 18px;
   padding-top: 10px;
   text-decoration: none; }
@@ -108,44 +158,16 @@ ul {
   position: relative;
   text-shadow: 0 0 10px #000000; }
 
-.form {
-  background-color: #EBEBEB;
-  font-size: 20px;
-  font-family: 'Josefin Sans', serif;
-  border: 0;
-  border-bottom: 2px solid #40325d;
-  border-radius: 2px;
-  margin: 5px;
-  text-align: center;
-  opacity: 0.7;
-  outline: 0;
-  color: #8164BA; }
+.fa {
+  padding: 0 5px; }
 
 video {
   z-index: -100;
   position: fixed;
   opacity: 0.7; }
 
-.gameButtons {
-  position: relative;
-  top: 40px;
-  left: 50%; }
-  .gameButtons ul {
-    background: transparent;
-    float: right; }
-    .gameButtons ul li {
-      float: left; }
-      .gameButtons ul li .button {
-        padding: 5px 8px;
-        background: #40325d;
-        border: 3px solid transparent;
-        background: transparent;
-        font-family: 'Monofett', cursive;
-        font-size: 35px;
-        color: #fff;
-        margin: 0 8px; }
-        .gameButtons ul li .button:hover {
-          border: 3px solid #fff;
-          border-radius: 5px; }
+@media only screen and (max-width: 400px) {
+  span {
+    display: none; } }
 
 /*# sourceMappingURL=app.css.map */
