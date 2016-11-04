@@ -70,17 +70,10 @@ table {
   height: 30px;
   width: 20%; }
 
-.gameButtons {
-  position: relative;
-  top: 40px;
-  left: 50%; }
-  .gameButtons ul {
-    background: transparent;
-    float: right; }
-    .gameButtons ul li {
-      float: left; }
+.fa-heart {
+  font-size: 8px; }
 
-ul li button {
+button {
   background: #8164BA;
   border: none;
   box-shadow: 0 6px #40325d;
@@ -92,9 +85,9 @@ ul li button {
   font-size: 30px;
   font-family: 'Monofett', cursive;
   padding: 5px 10px; }
-  ul li button:hover {
+  button:hover {
     background: #5a4682; }
-    ul li button:hover:active {
+    button:hover:active {
       background: #5a4682;
       box-shadow: 0 3px #40325d;
       transform: translateY(4px); }
