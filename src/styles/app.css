@@ -107,6 +107,9 @@ ul {
   padding: 25px;
   position: relative;
   text-shadow: 0 0 10px #000000; }
+  .fadeContainer .active {
+    color: black;
+    text-shadow: none; }
 
 .form {
   background-color: #EBEBEB;
