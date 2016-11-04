@@ -80,7 +80,7 @@ table {
     .gameButtons ul li {
       float: left; }
 
-ul li .button {
+ul li button {
   background: #8164BA;
   border: none;
   box-shadow: 0 6px #40325d;
@@ -92,9 +92,9 @@ ul li .button {
   font-size: 30px;
   font-family: 'Monofett', cursive;
   padding: 5px 10px; }
-  ul li .button:hover {
+  ul li button:hover {
     background: #5a4682; }
-    ul li .button:hover:active {
+    ul li button:hover:active {
       background: #5a4682;
       box-shadow: 0 3px #40325d;
       transform: translateY(4px); }
