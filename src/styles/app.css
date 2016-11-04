@@ -56,19 +56,14 @@ table {
   padding: 5px;
   color: red; }
 
-<<<<<<< HEAD
-.btnContainer {
-  width: 70%;
-  height: 300px;
-  margin: 0 auto;
-  background: red; }
-=======
+.fadeContainer {
+  width: 100%; }
+
 .mainContainer {
+  width: 70%;
   margin: 0 auto;
-  width: 75%;
   height: 400px;
-  background-color: red; }
->>>>>>> c94b90b9b5b0b176f2f7bdef9f3277e47372cd13
+  background: red; }
 
 .gameForm {
   background-color: rgba(255, 255, 255, 0.3);
@@ -105,6 +100,10 @@ button {
       background: #5a4682;
       box-shadow: 0 3px #40325d;
       transform: translateY(4px); }
+
+.gameButtons {
+  bottom: -100px;
+  position: relative; }
 
 * {
   box-sizing: border-box; }

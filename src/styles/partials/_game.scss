@@ -1,21 +1,14 @@
-<<<<<<< HEAD
-.btnContainer{
+
+.fadeContainer{
+  width: 100%;
+}
+.mainContainer{
   width: 70%;
-  height: 300px;
   margin: 0 auto;
+  height: 400px;
   background: red;
 }
 
-=======
-.mainContainer {
-  margin: 0 auto;
-  width: 75%;
-  height: 400px;
-  background-color: red;
-}
-
-
->>>>>>> c94b90b9b5b0b176f2f7bdef9f3277e47372cd13
 .gameForm {
     background-color: rgba(255,255,255, .3);
     font-size: 20px;
@@ -60,4 +53,9 @@
             transform: translateY(4px);
         }
     }
+}
+
+.gameButtons{
+  bottom: -100px;
+  position: relative;
 }
