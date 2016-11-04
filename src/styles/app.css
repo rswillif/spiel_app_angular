@@ -45,6 +45,7 @@ table {
   border-spacing: 0; }
 
 .loginRegister {
+  background-color: rgba(255, 255, 255, 0.3);
   border: none;
   border-radius: 2px;
   display: block;
@@ -52,7 +53,8 @@ table {
   outline: 0;
   width: 20%;
   height: 30px;
-  padding: 5px; }
+  padding: 5px;
+  color: red; }
 
 .gameForm {
   background-color: rgba(255, 255, 255, 0.3);
