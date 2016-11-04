@@ -1,15 +1,18 @@
 angular.module('spielapp')
-.controller('MainController', function($scope) {
+.controller('MainController', function($scope, $timeout) {
 
 
   	$scope.isActive = false;
     $scope.activeForm = function() {
       $scope.isActive = !$scope.isActive;
     };
-    $scope.blurUpdate = function() {
-        $scope.edit = true;
 
-      };
+
+
+
+
+
+
 
 
 // function libMaker(formString) {
