@@ -6,7 +6,10 @@ angular.module('spielapp')
     $scope.activeForm = function() {
       $scope.isActive = !$scope.isActive;
     };
+    $scope.blurUpdate = function() {
+        $scope.edit = true;
 
+      };
 
 
 // function libMaker(formString) {
