@@ -1,12 +1,18 @@
 
-.fadeContainer{
+#gamePage{
   width: 100%;
+  text-shadow: 0 0 10px(#000000);
+  color: transparent;
+
+  .active {
+    color: #000000;
+    text-shadow: none;
+  }
 }
+
 .mainContainer{
   width: 70%;
   margin: 0 auto;
-  height: 400px;
-  background: red;
 }
 
 .gameForm {
@@ -60,6 +66,6 @@
 }
 
 .gameButtons{
-  bottom: -100px;
   position: relative;
+  bottom: -50px;
 }

@@ -1,3 +1,7 @@
+.formFields{
+  margin: 0 auto;
+}
+
 .loginRegister{
   background-color: rgba(255,255,255, .3);
   border:none;
@@ -8,5 +12,8 @@
   width: 20%;
   height: 30px;
   padding: 5px;
-  color: red;
+}
+
+#login{
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 
 
 <div class="mainContainer">
-<div class='fadeContainer'>
+<div class='fadeContainer' id='gamePage'>
   <fieldset ng-disabled="badInput">
   <form name="spielForm" novalidate ng-class="{'active': isActive}"  ng-bind-html="getHtml(body)">
     <textarea name="spielText" ng-model="textarea.field1" runat="server">
@@ -10,11 +10,10 @@
   </fieldset>
 </div>
 
-    </div>
     <span class="gameButtons">
       <button class="gimme button" type="submit" ng-click="activeForm()">Gimme</button>
-      <button type="button"><i class="fa fa-heart" aria-hidden="true"></i></button>
-      <button type="button" ng-click="libMaker()" ng-model="clicked" >New Spiel</button>
+      <button class ='fav' type="button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+      <button class= 'new' type="button" ng-click="libMaker()" ng-model="clicked" >New Spiel</button>
     </span>
 
 </form>

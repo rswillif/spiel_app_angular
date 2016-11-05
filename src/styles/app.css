@@ -44,6 +44,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.formFields {
+  margin: 0 auto; }
+
 .loginRegister {
   background-color: rgba(255, 255, 255, 0.3);
   border: none;
@@ -53,17 +56,22 @@ table {
   outline: 0;
   width: 20%;
   height: 30px;
-  padding: 5px;
-  color: red; }
+  padding: 5px; }
 
-.fadeContainer {
-  width: 100%; }
+#login {
+  text-align: center; }
+
+#gamePage {
+  width: 100%;
+  text-shadow: 0 0 10px #000000;
+  color: transparent; }
+  #gamePage .active {
+    color: #000000;
+    text-shadow: none; }
 
 .mainContainer {
   width: 70%;
-  margin: 0 auto;
-  height: 400px;
-  background: red; }
+  margin: 0 auto; }
 
 .gameForm {
   background-color: rgba(255, 255, 255, 0.3);
@@ -85,6 +93,7 @@ table {
   font-size: 8px; }
 
 button {
+  margin-top: 40px;
   background: #8164BA;
   border: none;
   box-shadow: 0 6px #40325d;
@@ -104,8 +113,8 @@ button {
       transform: translateY(4px); }
 
 .gameButtons {
-  bottom: -100px;
-  position: relative; }
+  position: relative;
+  bottom: -50px; }
 
 * {
   box-sizing: border-box; }
@@ -158,18 +167,13 @@ ul {
 
 .fadeContainer {
   background-color: rgba(255, 255, 255, 0.3);
-  color: transparent;
   width: 70%;
   font-size: 22px;
   line-height: 120%;
   margin: 0 auto;
   top: 50px;
   padding: 25px;
-  position: relative;
-  text-shadow: 0 0 10px #000000; }
-  .fadeContainer .active {
-    color: black;
-    text-shadow: none; }
+  position: relative; }
 
 .fa {
   padding: 0 5px; }
@@ -180,6 +184,9 @@ video {
   opacity: 0.7; }
 
 @media only screen and (max-width: 400px) {
+  .fadeContainer {
+    width: 90%; }
+
   span {
     display: none; }
 
