@@ -19,6 +19,9 @@
     color: #8164BA;
     height: 30px;
     width: 20%;
+    &:active {
+      background-color: none;
+    }
 }
 
 .fa-heart{
@@ -27,6 +30,7 @@
 
 
  button {
+   margin-top: 40px;
   background: #8164BA;
   border: none;
   box-shadow: 0 6px #40325d;

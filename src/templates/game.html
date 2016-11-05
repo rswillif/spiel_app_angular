@@ -1,20 +1,28 @@
 
 <div class="mainContainer">
 <div class='fadeContainer'>
-  <form novalidate ng-class="{'active': isActive}"> Pizza was invented by a  <input type='text' class='form' placeholder="NATIONALITY"/> chef. To make a pizza, you need to take a lump of <input type='text' class='form' placeholder="NOUN"/> , and make a thin, round <input type='text' class='form' placeholder="ADJECTIVE"/> <input type='text' class='form' placeholder="NOUN"/> . Then you cover it with <input type='text' class='form' placeholder="ADJECTIVE"/> sauce, <input type='text' class='form' placeholder="ADJECTIVE"/> cheese, and fresh chopped <input type='text' class='form' placeholder="PLURALNOUN"/>. Next you have to bake it in a very hot <input type='text' class='form' placeholder="NOUN"/>. When it is done, <input type='text' class='form' placeholder="VERB"/> it into <input type='text' class='form' placeholder="ADJECTIVE"/> slices.
+  <fieldset ng-disabled="badInput">
+  <form name="spielForm" novalidate ng-class="{'active': isActive}"  ng-bind-html="getHtml(body)">
+    <textarea name="spielText" ng-model="textarea.field1" runat="server">
+  <p class="please-work" ng-bind-html="getHtml(body)" > </p>
+</textarea>
+  </fieldset>
 </div>
 
 <span class="gameButtons">
 
 
-      <button class="gimme button" ng-click="activeForm()">Gimme</button>
+      <button class="gimme button" type="submit" ng-click="activeForm()">Gimme</button>
 
-      <button type="button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+      <!-- <button type="button" ng-click="libMaker()" ng-model="clicked"><i class="fa fa-heart" aria-hidden="true"></i></button>
 
-      <button type="button">New Spiel</button>
+      <button type="button" >New Spiel</button> -->
 
 </span>
 
 </form>
+<button type="button" ng-click="libMaker()" ng-model="clicked"><i class="fa fa-heart" aria-hidden="true"></i></button>
+
+<button type="button" >New Spiel</button>
 
 </div>

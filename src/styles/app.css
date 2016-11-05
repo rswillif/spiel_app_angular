@@ -75,6 +75,8 @@ table {
   color: #8164BA;
   height: 30px;
   width: 20%; }
+  .gameForm:active {
+    background-color: none; }
 
 .fa-heart {
   font-size: 8px; }

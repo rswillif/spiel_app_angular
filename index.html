@@ -24,12 +24,12 @@
 <body>
 
 
-<div class='topSection'>
+<div class='topSection'ng-controller="MainController">
   <img class='logo' src='./images/spiellogo.png'/>
   <h1>Spiel</h1>
   <ul>
     <li class='nav'><a ui-sref='main.login'><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
-    <li class='nav'><a ui-sref='main.game'><i class="fa fa-play-circle" aria-hidden="true"></i><span>Play</span></a></li>
+    <li class='nav'><a ui-sref='main.game' ><i class="fa fa-play-circle" aria-hidden="true"></i><span>Play</span></a></li>
     <li class='nav'><a ui-sref='main.favs'><i class="fa fa-heart" aria-hidden="true"></i><span>Favorites</span></a></li>
   </ul>
 </div>
@@ -41,9 +41,11 @@
     <script src="./node_modules/angular/angular.js"></script>
     <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="./node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="./node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="./src/js/app.js"></script>
     <script src="./src/js/controllers/MainController.js"></script>
-    <!-- <script src="./src/js/directives/gameApp.js"></script> -->
+    <script src="./src/js/controllers/LoginController.js"></script>
+    <script src="./src/js/controllers/FavController.js"></script>
 
 
 </body>
