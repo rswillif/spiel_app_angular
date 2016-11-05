@@ -1,10 +1,13 @@
-.mainContainer {
-  margin: 0 auto;
-  width: 75%;
-  height: 400px;
-  background-color: red;
-}
 
+.fadeContainer{
+  width: 100%;
+}
+.mainContainer{
+  width: 70%;
+  margin: 0 auto;
+  height: 400px;
+  background: red;
+}
 
 .gameForm {
     background-color: rgba(255,255,255, .3);
@@ -23,6 +26,8 @@
       background-color: none;
     }
 }
+
+
 
 .fa-heart{
   font-size: 8px;
@@ -52,4 +57,9 @@
             transform: translateY(4px);
         }
     }
+}
+
+.gameButtons{
+  bottom: -100px;
+  position: relative;
 }

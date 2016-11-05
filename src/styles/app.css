@@ -56,11 +56,14 @@ table {
   padding: 5px;
   color: red; }
 
+.fadeContainer {
+  width: 100%; }
+
 .mainContainer {
+  width: 70%;
   margin: 0 auto;
-  width: 75%;
   height: 400px;
-  background-color: red; }
+  background: red; }
 
 .gameForm {
   background-color: rgba(255, 255, 255, 0.3);
@@ -99,6 +102,10 @@ button {
       background: #5a4682;
       box-shadow: 0 3px #40325d;
       transform: translateY(4px); }
+
+.gameButtons {
+  bottom: -100px;
+  position: relative; }
 
 * {
   box-sizing: border-box; }
