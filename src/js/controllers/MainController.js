@@ -1,22 +1,18 @@
 var app = angular.module('spielapp')
 app.controller('MainController', function($scope, $sce) {
 
-    $scope.badInput = false;
+    
+
   	$scope.isActive = false;
-
-    $scope.activeForm = function(info) {
+    $scope.activeForm = function() {
       $scope.isActive = !$scope.isActive;
-      $scope.badInput = true;
-    };
-
-    $scope.doBlur = function(){
-      document.getElementsByClassName('gameForm').attr('placeholder') == this.val();
     };
 
 
 
-    $scope.numString = "Pizza was invented by a  7 chef. To make a pizza, you need to take a lump of 1 , and make a thin, round 3 1 . Then you cover it with 3 sauce, 3 cheese, and fresh chopped 4 . Next you have to bake it in a very hot 1 . When it is done, 2 it into 3 slices.";
 
+
+    $scope.numString = "Captain: Ohhhhh... who lives in a 1 under the 1 ? Kids: 1 Bob Squarepants! Captain: 3 and 9 and 3 is he! Kids: 1 Bob Squarepants! Captain: If 3 1 be somthing you 2 ... Kids: 1 Bob Squarepants! Captain: Then 2 on the 1 and 2 like a 5 . Kids: 1  Bob Squarepants! Captain: Ready? Everyone: 1  Bob Squarepants! 1 Bob Squarepants! 1 Bob Squarepants! Captain: 1 Bob... Squarepants! ahhhahhhahahhaha!";
     $scope.body = null;
     $scope.completedSpiel = null;
 
@@ -26,30 +22,35 @@ app.controller('MainController', function($scope, $sce) {
 }
 
 $scope.libMaker= function() {
-
     this.splitUp = $scope.numString.split(" ");
      for (var i = 0; i < this.splitUp.length; i++) {
        switch(this.splitUp[i]) {
          case "1":
-         this.splitUp[i] = "<input type='text' class='gameForm' placeholder='NOUN'  required >";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NOUN</p>";
          break;
          case "2":
-         this.splitUp[i] = "<input type='text' class='gameForm' placeholder='VERB' required>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>VERB</p>";
          break;
          case "3":
-         this.splitUp[i] = "<input type='text' class='gameForm' placeholder='ADJECTIVE' required>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>ADJECTIVE</p>";
          break;
          case "4":
-         this.splitUp[i] = "<input type='text' class='gameForm'  placeholder='PLURAL NOUN'>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>PLURAL-NOUN</p>";
          break;
          case "5":
-         this.splitUp[i] = "<input type='text' class='gameForm' placeholder='ANIMAL'>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>ANIMAL</p>";
          break;
          case "6":
-         this.splitUp[i] = "<input type='text' class='gameForm'  placeholder='PLURAL ANIMAL'>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>PLURAL ANIMAL</p>";
          break;
          case "7":
-         this.splitUp[i] = "<input type='text' class='gameForm' placeholder='NATIONALITY'>";
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NATIONALITY</p>";
+         break;
+         case "8":
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NUMBER</p>";
+         break;
+         case "9":
+         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>COLOR</p>";
          break;
 
        }

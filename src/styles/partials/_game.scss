@@ -1,13 +1,12 @@
-
 #gamePage{
   width: 100%;
   text-shadow: 0 0 10px(#000000);
   color: transparent;
-
   .active {
     color: #000000;
     text-shadow: none;
-  }
+
+}
 }
 
 .mainContainer{
@@ -24,6 +23,7 @@
     border-radius: 2px;
     margin: 5px;
     text-align: center;
+    display: inline;
     outline: 0;
     color: #8164BA;
     height: 30px;
@@ -68,4 +68,16 @@
 .gameButtons{
   position: relative;
   bottom: -50px;
+}
+
+#title{
+  font-family: 'Monofett', cursive;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+#intro {
+  color: #000000;
+  text-shadow: none;
+
 }

@@ -1,19 +1,21 @@
 <div class="mainContainer">
-<div class='fadeContainer'>
-  <fieldset ng-disabled="badInput">
-  <form name="spielForm" novalidate ng-class="{'active': isActive}" ng-bind-html="getHtml(body)">
-    <textarea name="spielText" ng-model="textarea.field1" runat="server">
-  <p class="please-work" ng-bind-html="getHtml(body)"></p>
-</textarea>
-  </fieldset>
-</div>
+    <div class='fadeContainer' id="gamePage">
+        <div>
+            <form id="gameForm"  ng-class="{'active': isActive}" name="spielForm" novalidat ng-bind-html="getHtml(body)">
+                <p ng-bind-html="getHtml(body)"></p>
+        </div>
+        <div id="intro">
+            <p id="hello" ng-hide="gameInst">
+                <p id="title">Spiel</p> \ˈspēl\ Verb: To Speak extravagantly. <br> Click the "New Spiel" button bellow, fill out the form, get the spiel!
+            </p>
+        </div>
     </div>
     <span class="gameButtons">
       <button class="gimme button" type="submit" ng-click="activeForm()">Gimme</button>
-      <button type="button" ng-click="doBlur()"><i class="fa fa-heart"  aria-hidden="true"></i></button>
-      <button type="button" ng-click="libMaker()" ng-model="clicked" >New Spiel</button>
+      <button class="heart"><i class="fa fa-heart"  aria-hidden="true"></i></button>
+      <button class="newSpiel" type="button"  ng-click="libMaker()" ng-model="clicked" >New Spiel</button>
     </span>
 
-</form>
+    </form>
 
 </div>
