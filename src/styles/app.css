@@ -82,6 +82,7 @@ table {
   border-radius: 2px;
   margin: 5px;
   text-align: center;
+  display: inline;
   outline: 0;
   color: #8164BA;
   height: 30px;
@@ -115,6 +116,16 @@ button {
 .gameButtons {
   position: relative;
   bottom: -50px; }
+
+#title {
+  font-family: 'Monofett', cursive;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px; }
+
+#intro {
+  color: #000000;
+  text-shadow: none; }
 
 * {
   box-sizing: border-box; }
