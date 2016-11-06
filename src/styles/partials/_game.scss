@@ -77,5 +77,10 @@ line-height: 145%;
   border-radius: 2px;
   color: #8164BA;
   padding: 6px 4px 0 4px;
+  outline: none;
+  &:active {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
 }
