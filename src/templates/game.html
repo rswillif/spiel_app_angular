@@ -2,12 +2,10 @@
 
 <div class="mainContainer">
 <div class='fadeContainer' id='gamePage'>
-  <fieldset ng-disabled="badInput">
   <form name="spielForm" novalidate ng-class="{'active': isActive}"  ng-bind-html="getHtml(body)">
     <textarea name="spielText" ng-model="textarea.field1" runat="server">
   <p class="please-work" ng-bind-html="getHtml(body)" > </p>
 </textarea>
-  </fieldset>
 </div>
 
     <span class="gameButtons">
