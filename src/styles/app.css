@@ -62,14 +62,14 @@ table {
   display: block;
   font-family: 'Josefin Sans', serif;
   font-size: 18px;
-  margin: 0 auto;
   margin: 10px 0;
   outline-color: #40325d;
   width: 100%;
   height: 30px;
   padding: 5px; }
   .login.register {
-    display: none; }
+    display: none;
+    margin: 5px 0px; }
 
 #welcome {
   font-family: 'Monofett', cursive;
@@ -86,8 +86,9 @@ footer {
   margin: 10px;
   font-size: 20px; }
 
-#textChange {
-  cursor: crosshair; }
+a {
+  color: black;
+  cursor: pointer; }
 
 #gamePage {
   width: 100%;
@@ -101,22 +102,8 @@ footer {
   width: 70%;
   margin: 0 auto; }
 
-.gameForm {
-  background-color: rgba(255, 255, 255, 0.3);
-  font-size: 20px;
-  font-family: 'Josefin Sans', serif;
-  border: 0;
-  border-bottom: 2px solid #40325d;
-  border-radius: 2px;
-  margin: 5px;
-  text-align: center;
-  display: inline;
-  outline: 0;
-  color: #8164BA;
-  height: 30px;
-  width: 20%; }
-  .gameForm:active {
-    background-color: none; }
+#gameForm {
+  line-height: 145%; }
 
 .fa-heart {
   font-size: 8px; }
@@ -155,6 +142,17 @@ button {
   color: #000000;
   text-shadow: none; }
 
+.inputs {
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
+  border: 0;
+  border-bottom: 2px solid #40325d;
+  border-radius: 2px;
+  color: #8164BA;
+  padding: 6px 4px 0 4px; }
+
 * {
   box-sizing: border-box; }
 
@@ -172,8 +170,7 @@ h1 {
   font-size: 100px;
   font-family: 'Monofett', cursive;
   text-align: left;
-  padding-top: 5px;
-  width: 500px; }
+  padding-top: 5px; }
 
 .logo {
   padding-top: 15px;

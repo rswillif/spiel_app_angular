@@ -1,13 +1,16 @@
 var app = angular.module('spielapp')
 app.controller('MainController', function($scope, $sce) {
 
-    
+
 
   	$scope.isActive = false;
     $scope.activeForm = function() {
       $scope.isActive = !$scope.isActive;
     };
 
+    // $scope.when(spielForm.get()).then(function(response) {
+    //       spielForm.formString = response.data;
+    //     });
 
 
 
@@ -26,31 +29,31 @@ $scope.libMaker= function() {
      for (var i = 0; i < this.splitUp.length; i++) {
        switch(this.splitUp[i]) {
          case "1":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NOUN</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>NOUN</p>";
          break;
          case "2":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>VERB</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>VERB</p>";
          break;
          case "3":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>ADJECTIVE</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>ADJECTIVE</p>";
          break;
          case "4":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>PLURAL-NOUN</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>PLURAL-NOUN</p>";
          break;
          case "5":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>ANIMAL</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>ANIMAL</p>";
          break;
          case "6":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>PLURAL ANIMAL</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>PLURAL ANIMAL</p>";
          break;
          case "7":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NATIONALITY</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>NATIONALITY</p>";
          break;
          case "8":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>NUMBER</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>NUMBER</p>";
          break;
          case "9":
-         this.splitUp[i] = "<p contenteditable='true' class='gameForm'>COLOR</p>";
+         this.splitUp[i] = "<p contenteditable='true' class='inputs'>COLOR</p>";
          break;
 
        }

@@ -18,7 +18,6 @@
   display: block;
   font-family: 'Josefin Sans', serif;
   font-size: 18px;
-  margin: 0 auto;
   margin: 10px 0;
   outline-color: #40325d;
   width: 100%;
@@ -27,6 +26,7 @@
 
   &.register{
     display: none;
+    margin: 5px 0px;
   }
 }
 
@@ -47,6 +47,7 @@ footer{
   margin: 10px;
   font-size: 20px;
 }
- #textChange{
-   cursor: crosshair;
+a{
+  color: black;
+   cursor: pointer;
  }
