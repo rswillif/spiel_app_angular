@@ -12,12 +12,13 @@ $("body").on('click', '.heart', function () {
   console.log(spielMe);
 });
 
-<<<<<<< HEAD
+
 $('body').on('click', '.inputs', function() {
   $(this).text('');
   $(this).toggleClass('acitve');
+});
 
-=======
+
 
 $('body').on('click', '#textChange', function () {
 
@@ -35,5 +36,5 @@ $('body').on('click', '#textChange', function () {
         $(this).text('Register');
         $('.register').fadeOut();
     }
->>>>>>> 7423e4841cb7f92630c8c85c1c32e4f8f8e3116c
+console.log("het");
 });
