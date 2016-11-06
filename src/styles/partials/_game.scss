@@ -14,23 +14,8 @@
   margin: 0 auto;
 }
 
-.gameForm {
-    background-color: rgba(255,255,255, .3);
-    font-size: 20px;
-    font-family: 'Josefin Sans', serif;
-    border: 0;
-    border-bottom: 2px solid #40325d;
-    border-radius: 2px;
-    margin: 5px;
-    text-align: center;
-    display: inline;
-    outline: 0;
-    color: #8164BA;
-    height: 30px;
-    width: 20%;
-    &:active {
-      background-color: none;
-    }
+#gameForm {
+line-height: 145%;
 }
 
 
@@ -79,5 +64,18 @@
 #intro {
   color: #000000;
   text-shadow: none;
+
+}
+
+.inputs {
+  display: inline;
+  background-color: rgba(255,255,255, .3);
+  font-size: 20px;
+  font-family: 'Josefin Sans', serif;
+  border: 0;
+  border-bottom: 2px solid #40325d;
+  border-radius: 2px;
+  color: #8164BA;
+  padding: 6px 4px 0 4px;
 
 }
