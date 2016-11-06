@@ -1,13 +1,18 @@
 <div class='fadeContainer' id='login'>
-
-    <h1>Welcome</h1>
-    <p>I am a welcome paragraph</p>
+  <div class='loginPage'>
+    <p id='welcome'>Welcome</p>
     <div class='formFields'>
-        <input type='text' name='' placeholder="Username" class='loginRegister'>
-        <input type='password' name='' placeholder="Password" class='loginRegister'>
-        <input type='text' name='' placeholder="Username" class='loginRegister'>
-        <input type='text' name='' placeholder="Username" class='loginRegister'>
-        <button class='loginButton'>Login</button>
+        <input type='text' name='' placeholder="Username" class='login' required>
+        <input type='password' name='' placeholder="Password" class='login' required>
+        <input type='password' name='' placeholder="Verify Password" class='login register' required>
+        <input type='text' name='' placeholder="Email" class='login register' required>
+        <button  id='btnLoginToRegister' class='loginButton'>LOGIN</button>
+        <footer>
+        <p id='loginToRegister'> Not Registered?</p>
+        <a href='#' id='textChange'><u>Register</u></a>
+      </footer>
+
     </div>
+  </div>
 
 </div>
